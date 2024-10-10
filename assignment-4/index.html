@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Feedback form</title>
+</head>
+
+<body>
+  <form action="/" method="post">
+    <fieldset>
+      <legend class="title">Full name</legend>
+      <div class="row">
+        <input class="field" type="text" placeholder="First Name">
+        <input class="field" type="text" placeholder="Last Name">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend class="title">Address</legend>
+      <div class="row">
+        <input class="field" type="text" placeholder="Street Address">
+      </div>
+      <div class="row">
+        <input class="field" type="text" placeholder="City">
+        <input class="field" type="text" placeholder="State">
+        <input class="field" type="text" placeholder="ZIP Code">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend class="title">Contact Information</legend>
+      <div class="row">
+        <input class="field" type="email" placeholder="Email*">
+        <input class="field" type="tel" placeholder="Phone">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend class="title">Questions / Comments</legend>
+      <div class="row">
+        <textarea class="field" placeholder="Message*"></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div class="row">
+        <input class="updates" type="checkbox" name="updates">
+        <label class="updates-label" for="updates">Update me on deals and special offers via email</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div class="row">
+        <button class="sub" type="submit">Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
