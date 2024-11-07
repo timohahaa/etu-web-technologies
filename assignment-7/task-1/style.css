@@ -1,0 +1,18 @@
+.content {
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .content {
+    color: blueviolet;
+    font-style: oblique;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    color: orangered;
+    font-weight: 900;
+    font-style: normal;
+  }
+}
